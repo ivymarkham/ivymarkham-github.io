@@ -1,0 +1,24 @@
+body {
+    background-color: #bad3db;
+    color: white;
+}
+h1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    color: navy
+}
+h2 {
+    color: #505050
+}
+h3 {
+    color: #505050
+}
+.responsive {
+            width: 100%;
+            height: auto;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+    color: gray
+}
