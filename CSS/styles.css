@@ -1,24 +1,32 @@
 body {
-    background-color: #bad3db;
-    color: white;
+    background-color: #676767
+}
+nav {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center
 }
 h1 {
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    color: navy
+    font-family: 'Monoton', cursive;
+    color: #f6fd3e;
+    text-align: center
 }
 h2 {
-    color: #505050
+    font-family: 'Roboto', sans-serif;
+    color: white
 }
 h3 {
-    color: #505050
+    font-family: 'Roboto', sans-serif;
+    color: white
 }
 .responsive {
-            width: 100%;
-            height: auto;
+    width: 100%;
+    height: auto;
 }
 p {
-  font-family: "Helvetica", sans-serif;
-    color: gray
+    font-family: 'Roboto', sans-serif;
+    color: white
+}
+li  {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline
 }
