@@ -122,3 +122,11 @@ li a:hover {
     padding-top: 10px;
     padding-bottom: 28px
 }
+.big {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-bottom: 25px
+}
