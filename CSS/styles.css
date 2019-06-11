@@ -2,30 +2,123 @@ body {
     background-color: gainsboro
 }
 nav {
-    font-family: 'Montserrat', sans-serif
-}
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    text-align: center
 }
 h1 {
-    font-family: 'Permanent Marker', cursive;
-    color: black
+    font-family: 'Staatliches', cursive;
+    color: #b4ad00;
+    font-size: 50pt;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0px
 }
 h2 {
     font-family: 'Roboto', sans-serif;
-    color: black
+    color: #4b4b4b;
+    padding: 10px;
+    margin: 0;
+    font-size: 25pt;
+    text-align: center
 }
 h3 {
     font-family: 'Roboto', sans-serif;
-    color: black
-}
-.responsive {
-    width: 100%;
-    height: auto
+    color: #4b4b4b;
+    padding: 20px;
+    margin: 0px;
+    text-align: center
 }
 p {
     font-family: 'Roboto', sans-serif;
-    color: black
+    color: #6a6a6a;
+    padding-left: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px
+}
+img {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-bottom: 0px
+}
+div {
+    background-color: white;
+    margin: 20px
+}
+footer {
+    background-color: #adadad;
 }
 li  {
     font-family: 'Montserrat', sans-serif;
     display: inline
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4b4b4b;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #558491;
+}
+.active {
+    background-color: #004e65
+}
+.button {
+    display: block;
+    width: contain;
+    border: none;
+    background-color: #004e65;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none
+}
+.button:hover {
+    background-color: #558491
+}
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px
+}
+.about {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+.posts {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 28px
 }
